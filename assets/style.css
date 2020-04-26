@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header {
+	height: 100vh;
+    background: linear-gradient(to left top, rgba(25, 125, 165, 0.7), rgba(133, 61, 160, 0.6)), url(../images/space.jpg) no-repeat top center/ cover;
+	padding: 40vh 0;
+}
+
+h1 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.projects-btn {
+	text-decoration: none;
+	display: block;
+	border: 2px solid #fff;
+	width: 170px;
+	margin: 0 auto;
+	padding: 12px 0;
+	font-size: 18px;
+	border-radius: 20px;
+	color: #fff;
+}
+
+.projects-btn:hover {
+	background: #fff;
+	color: #545f8e;
+	transition: .6s;
+}
+
+.about {
+	background: #fff;
+	padding: 150px 0;
+	color: #614d68;
+
+}
+
+.skills {
+    background: linear-gradient(to right top, rgba(25, 125, 165, 0.7), rgba(133, 61, 160, 0.6)), url(../images/space3.jpg) no-repeat top center / cover;
+	color: #fff;
+	height: 400px;
+	padding-top: 100px;
+}
+
+
+
+hr {
+	width: 600px;
+	margin: 20px auto;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+img {
+	margin-top: 10px;
+	max-width: 100px;
+}
+
+.portfolio {
+	padding-top: 70px;
+}
+
+.wrapper_inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+
+.demo {
+	display: none;
+	width: 100%;	
+	height: 100%;
+	background: rgba(70, 70, 70, .85);
+	padding: 20px 10px;
+	position: relative;
+}
+
+
+.project-block:hover .demo {
+	display: block;
+}
+
+.project-block {
+	width: 450px;
+	background: url("../images/ChatApp.png") no-repeat  center/ cover;
+	height: 300px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.project-block:nth-child(2) {
+	background: url("../images/pixabayapp.png") top center/ cover;
+}
+
+.project-block:nth-child(3) {
+	background: url("../images/imdbapp.png") top center/ cover;
+}
+
+.project-block:nth-child(4) {
+	background: url("../images/weatherapp.png") top center/ cover;
+}
+
+.project-block:last-child {
+	background: url("../images/fetchusers.png") top center/ cover;
+}
+
+.project-info {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.project-buttons {
+	position: absolute;
+	bottom: 20px;
+	left: 27%;
+}
+
+.project-btn {
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid white;
+	color: black;
+	padding: 15px;
+	border-radius: 10px;
+	margin-right: 5px;
+	width: auto;
+	max-width: 200px;
+	color: #fff;
+	bottom: 0;
+}
+
+.project-btn:hover {
+	background: #fff;
+	color: #000;
+	transition: .6s;
+
+}
+
+.footer {
+	width: 100%;
+	padding: 60px 0;
+	background-color: #4682B4;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer p {
+	margin-top: 10px;
+}
+
+i {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.technologies {
+	font-weight: bold;
+}
