@@ -8,13 +8,17 @@
 <body>
 	<header class="header">
 		<div class="wrapper">
-			<h1>Yevhenii Isaiev<br>Front End developer</h1>
+			<h1>Yevhenii Isaiev<br>Front End Developer</h1>
 			<a class="projects-btn" href="#portfolio">See my projects</a>
 		</div>
 	</header>
 	<section class="about">
 		<div class="wrapper">
-			<h2>Hello, my name is Yevhenii!<br>I'm a Front End developer who have a passion for creating something new</h2>
+			<h2>
+				Hello, my name is Yevhenii!
+				<br>
+				A Front End Developer who is passionate about creating something new.
+			</h2>
 			<hr>
 			<p>Here below you can take a look at some of my rescent projects and check out my code</p>
 		</div>
@@ -22,11 +26,11 @@
 	<section class="skills">
 		<div class="wrapper">
 			<h2>My skills</h2>
-			<p>HTML 5, CSS 3, JavaScript, React, Redux, jQuery, Sass, Bootstrap, Node.js</p>
-			<img src="./images/html.png" alt="html-img">
-			<img src="./images/css.png" alt="css-img">
-			<img src="./images/js.png" alt="js-img">
-			<img src="./images/react.png" alt="react-img">
+			<p>HTML 5, CSS 3, JavaScript, React, Redux, jQuery, Sass, Bootstrap, Node.js, Express, Git, Photoshop</p>
+			<img src="./images/html.png" alt="html">
+			<img src="./images/css.png" alt="css">
+			<img src="./images/js.png" alt="js">
+			<img src="./images/react.png" alt="react">
 		</div>
 	</section>
 	<section id="portfolio" class="portfolio">
@@ -35,16 +39,31 @@
 			<div class="wrapper_inner">
 				<div class="project-block">
 					<div class="demo">
-						<h3>Chat app</h3>
+						<h3>Phone store</h3>
 						<p class="project-info">
-							Enter your name and room, and chat with people in the same room.
-							</p>
+							Store app with phones. Add them to cart, change their quantity, delete single phone or everything from the cart by respective buttons, the value of the cart is changing dynamicaly. You can check details by clicking on the phone image. Also you can make sandbox purchuase via PayPal sandbox checkout.
+						</p>
 						<p class="project-info">	
-							Technologies I used here: <span class="technologies">HTML, CSS, React, Node.js, socket.io.</span>
+							Technologies used here: <span class="technologies">HTML, CSS, React, Redux, React-Router</span>
+						</p>
+						<div class="project-buttons">
+							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/PhoneStore/">Demo</a>
+							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/PhoneStore">Source code</a>
+						</div>	
+					</div>
+				</div>	
+				<div class="project-block">
+					<div class="demo">
+						<h3>Chat App</h3>
+						<p class="project-info">
+							Enter your name and room, and chat with people in the same room. You can do it from different devices or from one device and different tabs.
+						</p>
+						<p class="project-info">	
+							Technologies used here: <span class="technologies">HTML, CSS, React, Node.js, socket.io</span>
 						</p>
 						<div class="project-buttons">
 							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/ChatApp/">Demo</a>
-							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/ChatApp/">Source code</a>
+							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/ChatApp-src">Source code</a>
 						</div>	
 					</div>
 				</div>	
@@ -54,11 +73,11 @@
 						<p class="project-info">
 							App that fetches data from Pixabay API. Search for any pictures you like and look at the information in detail about owner and original link to the certain picture.</p>
 						<p class="project-info">
-							Technologies I used here: <span class="technologies">HTML, CSS, React and Router.</span>
+							Technologies used here: <span class="technologies">HTML, CSS, React, React-Router</span>
 						</p>
 						<div class="project-buttons">
 							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/PixabayApp/">Demo</a>
-							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/PixabayApp/">Source code</a>
+							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/PixabayApp-src">Source code</a>
 						</div>	
 					</div>
 				</div>
@@ -66,13 +85,13 @@
 					<div class="demo">
 						<h3>IMDB App</h3>
 						<p class="project-info">
-							This App is fetching The movie DB API, similar to IMDB database. Search for any movie and get the info right away, also including search suggestions.</p>
+							This app is fetching TMDb API that is similar to IMDb database. Search for any movie and get the info right away, also including search suggestions.</p>
 						<p class="project-info">	
-							Technologies I used here: <span class="technologies">HTML, CSS, React.</span>
+							Technologies used here: <span class="technologies">HTML, CSS, React</span>
 						</p>
 						<div class="project-buttons">
 							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/ImdbApp/">Demo</a>
-							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/ImdbApp/">Source code</a>
+							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/ImdbApp-src">Source code</a>
 						</div>	
 					</div>
 				</div>
@@ -80,38 +99,26 @@
 					<div class="demo">
 						<h3>Weather App</h3>
 						<p class="project-info">
-							You can check weather here. All data is provided through openweathermap API, search is working with suggestions or you can click on submit button and the first suggestion result would be provided. Images are related to the weather state.</p>
+							You can check weather here. All data is provided through OpenWeatherMap API, search is working with suggestions or you can click on submit button and the first suggestion result would be provided. Images are related to the weather state.</p>
 						<p class="project-info">	
-							Technologies I used here: <span class="technologies">HTML, CSS, React.</span>
+							Technologies used here: <span class="technologies">HTML, CSS, React</span>
 						</p>
 						<div class="project-buttons">
 							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/WeatherApp/">Demo</a>
-							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/WeatherApp/">Source code</a>
+							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/WeatherApp-src">Source code</a>
 						</div>	
 					</div>
 				</div>
-				<div class="project-block">
-					<div class="demo">
-						<h3>Fetch users</h3>
-						<p class="project-info">
-							Here I've build an app that fetches jsonplaceholder API. App is getting users list at the start, then you can see exact user's posts, comments to those posts, make a new post, delete it or edit.</p>
-						<p class="project-info">	
-							Technologies I used here: <span class="technologies">HTML, CSS, React, React Router. </span>
-						</p>
-						<div class="project-buttons">
-							<a class="project-btn" target="_blank" href="https://jackaj16.github.io/UsersApp/">Demo</a>
-							<a class="project-btn" target="_blank" href="https://github.com/JACKAJ16/UsersApp/">Source code</a>
-						</div>	
-					</div>
-				</div>	
 			</div>
 		</div>
 	</section>
 	<footer class="footer">
-		<a href="#"><i class="arrow up"></i></a>
+		<a href="#" title="Go up"><i class="arrow up"></i></a>
 		<br>
-		<a target="_blank" href="https://github.com/JACKAJ16/" title="My Github">Github</a>
-		<a target="_blank" href="https://github.com/JACKAJ16/myCv/raw/master/Yevhenii%20Isaiev%20resume.pdf" title="Download Resume">Resume</a>
+		<a target="_blank" class="footer-link" href="https://github.com/JACKAJ16/" title="My Github">Github</a>
+		<a target="_blank" class="footer-link" href="https://drive.google.com/file/d/1-86TPrFVtIpd0DKZObWC23puSldOQ8Vq/view" title="Watch my resume"> Resume</a>
+		<br>
+		<a class="footer-link" href="mailto:zhenya271@gmail.com" title="Send me an email">zhenya271@gmail.com</a>
 		<p>Site by Yevhenii Isaiev</p>
 	</footer>
 </body>
